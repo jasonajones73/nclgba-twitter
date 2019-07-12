@@ -2,7 +2,7 @@
 title: "#NCLGBA19 On Twitter"
 subtitle: "All work and no play make Jason a dull boy"
 author: "Jason Jones"
-date: "7/11/2019"
+date: "7/12/2019"
 output:
   html_document:
     theme: flatly
@@ -45,7 +45,7 @@ tweets %>%
   top_n(24, running_total) %>%
   ggplot(aes(created_at, running_total)) +
   geom_col(fill = "#112E51") +
-  geom_label(aes(label = scales::comma(running_total)), nudge_y = -50, size = 2) +
+  geom_label(aes(label = scales::comma(running_total)), nudge_y = -5, size = 2) +
   scale_y_continuous(labels = scales::comma_format()) +
   labs(title = "New Tweets: #ELGL19",
        caption = "Author: Jason Jones, @packpridejones",
@@ -70,7 +70,7 @@ tweets %>%
   top_n(24, running_total) %>%
   ggplot(aes(created_at, running_total)) +
   geom_col(fill = "#FF7043") +
-  geom_label(aes(label = scales::comma(running_total)), nudge_y = -50, size = 2) +
+  geom_label(aes(label = scales::comma(running_total)), nudge_y = -5, size = 2) +
   scale_y_continuous(labels = scales::comma_format()) +
   labs(title = "Retweets: #ELGL19",
        caption = "Author: Jason Jones, @packpridejones",
