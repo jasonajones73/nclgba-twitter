@@ -247,9 +247,9 @@ wordcloud::wordcloud(sentiment$word, sentiment$word_count, colors = c("#0095A8",
 
 # Want To Play With The Data Too?
 
-* [Tweet Data CSV](https://raw.githubusercontent.com/jasonajones73/elgl19-twitter/master/data/tweets.csv)
-* [Tweet Data JSON](https://raw.githubusercontent.com/jasonajones73/elgl19-twitter/master/data/tweets.json)
-* [Tweet Data RDS](https://github.com/jasonajones73/elgl19-twitter/blob/master/data/tweets.rds?raw=true)
+* [Tweet Data CSV](https://raw.githubusercontent.com/jasonajones73/nclgba-twitter/master/data/tweets.csv)
+* [Tweet Data JSON](https://raw.githubusercontent.com/jasonajones73/nclgba-twitter/master/data/tweets.json)
+* [Tweet Data RDS](https://github.com/jasonajones73/nclgba-twitter/blob/master/data/tweets.rds?raw=true)
 
 <br>
 <br>
