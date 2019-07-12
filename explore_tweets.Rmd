@@ -47,7 +47,7 @@ tweets %>%
   geom_col(fill = "#112E51") +
   geom_label(aes(label = scales::comma(running_total)), nudge_y = -5, size = 2) +
   scale_y_continuous(labels = scales::comma_format()) +
-  labs(title = "New Tweets: #ELGL19",
+  labs(title = "New Tweets: #NCLGBA19",
        caption = "Author: Jason Jones, @packpridejones",
        x = NULL, y = NULL) +
   theme(panel.background = element_blank(),
@@ -72,7 +72,7 @@ tweets %>%
   geom_col(fill = "#FF7043") +
   geom_label(aes(label = scales::comma(running_total)), nudge_y = -5, size = 2) +
   scale_y_continuous(labels = scales::comma_format()) +
-  labs(title = "Retweets: #ELGL19",
+  labs(title = "Retweets: #NCLGBA19",
        caption = "Author: Jason Jones, @packpridejones",
        x = NULL, y = NULL) +
   theme(panel.background = element_blank(),
@@ -213,7 +213,7 @@ tweets %>%
   geom_line() +
   geom_point(color = "#FF7043", size = 3) +
   scale_y_continuous(labels = scales::comma_format()) +
-  labs(title = "#ELGL19: Twitter Cumulative Sentiment",
+  labs(title = "#NCLGBA19: Twitter Cumulative Sentiment",
        subtitle = "Y'all Some Positive People!",
        caption = "Author: Jason Jones, @packpridejones",
        x = NULL, y = NULL) +
